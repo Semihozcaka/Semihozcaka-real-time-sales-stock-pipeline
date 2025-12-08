@@ -2,7 +2,8 @@
 Real-Time Sales & Stock Pipeline
 Apache Dask • DuckDB (Iceberg-like) • Snowflake • Tableau
 Bu proje, bir e-ticaret şirketinin satış ve stok verilerini gerçek zamanlı analiz edebilmesi için uçtan uca bir veri hattı (pipeline) oluşturur. Veri üretiminden dashboard’a kadar tüm süreç otomatikleştirilmiştir.
-📌 Proje Bileşenleri (Özet)
+
+ Proje Bileşenleri 
 1. Veri Üretimi & Temizleme
 Python ile satış ve stok verisi üretildi (generate_data.py)
 Veri CSV ve Parquet formatında oluşturuldu.
@@ -32,12 +33,17 @@ Günlük talep analizi
 En çok satılan ürünler
 Stok yetersizliği uyarıları
 Dashboard dosyaları /dashboards/ klasöründe bulunur.
-📁 Klasör Yapısı
+
+ 
+ 
+ Klasör Yapısı
 scripts/       → Pipeline scriptleri
 data/raw/      → Ham veriler
 data/processed/→ Dask çıktıları
 warehouse/     → Iceberg-like Parquet Lakehouse
 dashboards/    → Tableau dashboard
 docs/          → Rapor ve ek belgeler
-🧾 Sonuç
+
+
+Sonuç
 Bu proje; veri üretimi, büyük veri işleme, lakehouse tasarımı, bulut veri ambarı ve dashboard oluşturmayı kapsayan tam bir uçtan uca veri mühendisliği çözümüdür.
